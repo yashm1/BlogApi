@@ -5,7 +5,7 @@ const port = 3001 // Setting the port number
 const { Sequelize, Model } = require('sequelize');
 
 // Making connection with database
-const sequelize = new Sequelize('blogs', 'postgres', 'yash1234', {
+const sequelize = new Sequelize('dbname', 'username', 'password', {
     host: 'localhost',
     dialect: 'postgres',
     logging: false
