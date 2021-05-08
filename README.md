@@ -14,3 +14,10 @@ The Frontend is made using the React and Backend is made using NodeJs and PostGr
 5. Open the index.js file
 6. Change the password and UserName according to your Postgres Setup
 7. And you will have backend running on localhost:3001
+
+
+## To connect to Database
+1. The database of the repo is made using the postgres
+2. Put the credentials in the the index.js file in the backend to connect with backend
+3. Made a Database named as blog in the Postgres
+
